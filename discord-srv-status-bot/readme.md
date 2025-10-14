@@ -1,4 +1,4 @@
-```markdown
+```
 # 📡 Home Center Status Bot
 
 Discord bot vytvořený pro **pravidelné monitorování stavu a volného místa** na vašich lokálních a vzdálených Linux serverech (např. Pi-Hole, OpenMediaVault, NAS atd.) a pro reportování těchto dat do Discord kanálu.
