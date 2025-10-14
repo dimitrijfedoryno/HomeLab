@@ -136,4 +136,3 @@ pm2 save
 Tento projekt je šířen pod licencí **MIT**.
 
 ```
-```
