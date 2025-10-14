@@ -1,0 +1,40 @@
+# ----------------------------------------------------------------------
+# ZÁKLADNÍ NODE.JS SOUBORY A SLOŽKY
+# ----------------------------------------------------------------------
+
+# Složka s moduly
+/node_modules
+
+# Soubory uzamykající balíčky (volitelné, ale doporučené ignorovat)
+# Pokud používáte npm:
+package-lock.json
+# Pokud používáte yarn:
+# yarn.lock
+
+# Logy npm
+.npm
+
+# ----------------------------------------------------------------------
+# CITLIVÁ DATA A KONFIGURACE
+# ----------------------------------------------------------------------
+
+# Ignorovat soubor s proměnnými prostředí (.env)
+# Ten obsahuje Discord token, SSH hesla atd.
+.env
+
+# ----------------------------------------------------------------------
+# DALŠÍ POTENCIÁLNĚ ZBYTEČNÉ SOUBORY
+# ----------------------------------------------------------------------
+
+# Logy z konzole nebo ladění
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Dočasné soubory/zálohy IDE
+.vscode/
+.idea/
+
+# Výstupy kompilace
+/dist
+/build

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Server OMV",
+    "env_prefix": "OMV",
+    "current": false 
+  },
+  {
+    "name": "Server Pi-Hole",
+    "env_prefix": "PIHOLE",
+    "current": true
+  }
+]

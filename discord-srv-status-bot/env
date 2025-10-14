@@ -1,0 +1,13 @@
+DISCORD_TOKEN=xxxxxx
+DISCORD_GUILD_ID=xxxxxx   # ID serveru (
+DISCORD_CHANNEL_ID=xxxxxx    # ID kanálu pro status zprávu
+
+# SSH credentials pro OMV (Vzdálený server)
+OMV_SSH_HOST=xxxxxx
+OMV_SSH_USER=xxxxxx
+OMV_SSH_PASS=xxxxxx
+
+# SSH credentials pro Pi-Hole (Vzdálený server)
+PIHOLE_SSH_HOST=xxxxxx
+PIHOLE_SSH_USER=xxxxxx
+PIHOLE_SSH_PASS=xxxxxx
