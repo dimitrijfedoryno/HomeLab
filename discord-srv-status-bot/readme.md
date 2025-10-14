@@ -142,6 +142,4 @@ pm2 save
 ---
 
 ## 📄 Licencování
-
 Tento projekt je šířen pod licencí **MIT**.
-```
