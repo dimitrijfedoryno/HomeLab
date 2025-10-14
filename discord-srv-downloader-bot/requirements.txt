@@ -1,0 +1,7 @@
+discord.py
+yt-dlp
+requests
+python-dotenv
+websocket-client
+psutil
+shutil

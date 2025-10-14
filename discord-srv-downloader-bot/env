@@ -1,0 +1,23 @@
+# ===============================================
+# Discord a Spotify API konfigurace
+# ===============================================
+SPOTIFY_CLIENT_ID="xxxxxx"
+SPOTIFY_CLIENT_SECRET="xxxxxx"
+DISCORD_BOT_TOKEN="xxxxxx"
+DISCORD_OWNER_ID="xxxxxx"
+
+# Kanál pro omezení slash příkazů /stahni (ID kanálu, kde je povoleno stahovat)
+DISCORD_CHANNEL_ID="xxxxxx" 
+
+# ===============================================
+# Konfigurace cest pro ukládání souborů (OMV)
+# ===============================================
+# ABSOLUTNÍ CESTA k vašemu multimediálnímu úložišti (např. OMV cesta)
+OMV_BASE_DOWNLOAD_DIR="xxxxxx"
+
+# Název podsložky pro audio (uvnitř OMV_BASE_DOWNLOAD_DIR).
+# Zde se budou vytvářet složky uživatelů.
+AUDIO_SUB_DIR_NAME="Hudba"
+
+# Název podsložky pro video (uvnitř OMV_BASE_DOWNLOAD_DIR).
+VIDEO_SUB_DIR_NAME="Videa"
