@@ -1,0 +1,11 @@
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: "ghcr.io/home-assistant/home-assistant:stable"
+    volumes:
+      - /srv/dev-disk-by-uuid-1cfc3f1a-e64c-4b80-8151-d8f58a25e10f/Docker_Compose_Configs/homeassistant-config:/config # Cesta k config složce
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket:ro
+    restart: unless-stopped
+    privileged: true
+    network_mode: host

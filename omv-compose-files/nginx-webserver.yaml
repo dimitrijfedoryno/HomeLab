@@ -1,0 +1,15 @@
+services:
+  webserver:
+    # Oficiální image Nginx (nebo např. lscr.io/linuxserver/nginx pro pokročilejší)
+    image: nginx:latest
+    container_name: Webserver
+    restart: always
+    environment:
+      # Volitelně, pro nastavení časového pásma
+      - TZ=Europe/Prague
+    volumes:
+      # ZMĚŇTE TUTO CESTU! Musí odpovídat cestě k vaší sdílené složce
+      - /srv/dev-disk-by-uuid-1cfc3f1a-e64c-4b80-8151-d8f58a25e10f/Surikata/Web:/usr/share/nginx/html:ro
+    ports:
+      # Host:Container - Váš web bude dostupný na http://[IP_OMV]:8080
+      - "8080:80"
