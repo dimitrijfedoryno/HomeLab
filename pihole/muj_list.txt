@@ -1,6 +1,6 @@
 tvguru.cz
 
-## CurseForge Client Adds
+! CurseForge Client Adds
 mrkt.forgecdn.net
 ads.pubmatic.com
 overwolf-d.openx.net
