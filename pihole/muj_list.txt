@@ -1,1 +1,10 @@
 tvguru.cz
+
+## CurseForge Client Adds
+mrkt.forgecdn.net
+ads.pubmatic.com
+overwolf-d.openx.net
+tracking.overwolf.com
+content.overwolf.com
+ep2.adtrafficquality.google
+ssbsync.smartadserver.com
