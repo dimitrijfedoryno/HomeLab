@@ -7,3 +7,7 @@ tracking.overwolf.com
 content.overwolf.com
 ep2.adtrafficquality.google
 ssbsync.smartadserver.com
+
+127.0.0.1 accounting.teamspeak.com
+127.0.0.1 backupaccounting.teamspeak.com
+127.0.0.1 ipcheck.teamspeak.com
